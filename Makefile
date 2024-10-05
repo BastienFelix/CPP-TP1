@@ -6,10 +6,10 @@ CXXFLAGS = -Wall -Wextra -std=c++11
 TARGET = main
 
 # Source files
-SRCS = main.cpp lexique.cpp utilitaire.cpp
+SRCS = main.cpp lexique.cpp utilitaire.cpp lexiqueAmeliore.cpp
 
 # Header files
-HDRS = lexique.hpp utilitaire.hpp
+HDRS = lexique.hpp utilitaire.hpp lexiqueAmeliore.hpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
